@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
+    "convert-logs": "python3 convert_logs.py",
     "lint": "pnpm run \"/^lint:.*/\"",
     "lint:eslint": "eslint --format codeframe '**/*.ts' '**/*.tsx'",
     "lint:prettier": "prettier --check '**/*.{ts,tsx,cjs,css,html,json,yml}'",
